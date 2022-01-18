@@ -1,0 +1,129 @@
+﻿<Window x:Class="WpfApp11_2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp11_2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Canvas>
+        <Ellipse Stroke="Black"  Width="32" Height="32" Canvas.Left="387.449" Canvas.Top="132.167">
+            <Ellipse.Fill>
+                <RadialGradientBrush>
+                    <GradientStop Color="White" Offset="0"/>
+                    <GradientStop Color="Yellow" Offset="1"/>
+                </RadialGradientBrush>
+            </Ellipse.Fill>
+        </Ellipse>
+        <Path  Data="M395.16668,133.41772 C395.16668,133.41772 383.10308,99.165692 390.16586,90.084975 397.22864,81.004257 402.83378,79.419201 410.16818,91.751693 412.23111,95.220429 409.19536,126.69701 406.16813,132.75073" 
+              Height="51.531" Canvas.Left="388.949" Stretch="Fill" Stroke="Black" Canvas.Top="80.636" Width="23.894">
+            <Path.Fill>
+                <RadialGradientBrush>
+                    <GradientStop Color="White" Offset="0.251"/>
+                    <GradientStop Color="#FF63C8CD" Offset="0.695"/>
+                </RadialGradientBrush>
+            </Path.Fill>
+        </Path>
+            
+        <Path  Data="M395.16668,133.41772 C395.16668,133.41772 383.10308,99.165692 390.16586,90.084975 397.22864,81.004257 402.83378,79.419201 410.16818,91.751693 412.23111,95.220429 409.19536,126.69701 406.16813,132.75073" 
+              Height="51.531" Canvas.Left="460.282" Stretch="Fill" Stroke="Black" Canvas.Top="185.303" Width="23.894">
+            <Path.Fill>
+                <RadialGradientBrush>
+                    <GradientStop Color="White" Offset="0.251"/>
+                    <GradientStop Color="#FF63C8CD" Offset="0.695"/>
+                </RadialGradientBrush>
+            </Path.Fill>
+            <Path.RenderTransform>
+                <RotateTransform Angle="135"/>
+            </Path.RenderTransform>
+        </Path>
+        <Path  Data="M395.16668,133.41772 C395.16668,133.41772 383.10308,99.165692 390.16586,90.084975 397.22864,81.004257 402.83378,79.419201 410.16818,91.751693 412.23111,95.220429 408.84059,127.28234 405.81336,133.33606" 
+              Height="51.531" Canvas.Left="470.616" Stretch="Fill" Stroke="Black" Canvas.Top="133.97" Width="23.85" >
+            <Path.Fill>
+                <RadialGradientBrush>
+                    <GradientStop Color="White" Offset="0.251"/>
+                    <GradientStop Color="#FF63C8CD" Offset="0.695"/>
+                </RadialGradientBrush>
+            </Path.Fill>
+            <Path.RenderTransform>
+                <RotateTransform Angle="90"/>
+            </Path.RenderTransform>
+        </Path>
+        <Path  Data="M395.16668,133.41772 C395.16668,133.41772 383.10308,99.165692 390.16586,90.084975 397.22864,81.004257 402.83378,79.419201 410.16818,91.751693 412.23111,95.220429 409.19536,126.69701 406.16813,132.75073" 
+              Height="51.531" Canvas.Left="444.948" Stretch="Fill" Stroke="Black" Canvas.Top="92.971" Width="23.894">
+            <Path.Fill>
+                <RadialGradientBrush>
+                    <GradientStop Color="White" Offset="0.251"/>
+                    <GradientStop Color="#FF63C8CD" Offset="0.695"/>
+                </RadialGradientBrush>
+            </Path.Fill>
+            <Path.RenderTransform>
+                <RotateTransform Angle="50"/>
+            </Path.RenderTransform>
+        </Path>
+        <Path Data="M395.16668,133.41772 C395.16668,133.41772 383.10308,99.165692 390.16586,90.084975 397.22864,81.004257 402.83378,79.419201 410.16818,91.751693 412.23111,95.220429 409.19536,126.69701 406.16813,132.75073" 
+              Height="51.531" Canvas.Left="415.949" Stretch="Fill" Stroke="Black" Canvas.Top="215.645" Width="23.894">
+            <Path.Fill>
+                <RadialGradientBrush>
+                    <GradientStop Color="White" Offset="0.251"/>
+                    <GradientStop Color="#FF63C8CD" Offset="0.695"/>
+                </RadialGradientBrush>
+            </Path.Fill>
+            <Path.RenderTransform>
+                <RotateTransform Angle="180"/>
+            </Path.RenderTransform>
+        </Path>
+        <Path  Data="M395.16668,133.41772 C395.16668,133.41772 383.10308,99.165692 390.16586,90.084975 397.22864,81.004257 402.83378,79.419201 410.16818,91.751693 412.23111,95.220429 408.84059,127.28234 405.81336,133.33606" 
+              Height="51.531" Canvas.Left="334.949" Stretch="Fill" Stroke="Black" Canvas.Top="160.97" Width="23.85" >
+            <Path.Fill>
+                <RadialGradientBrush>
+                    <GradientStop Color="White" Offset="0.251"/>
+                    <GradientStop Color="#FF63C8CD" Offset="0.695"/>
+                </RadialGradientBrush>
+            </Path.Fill>
+            <Path.RenderTransform>
+                <RotateTransform Angle="270"/>
+            </Path.RenderTransform>
+        </Path>
+        <Path Data="M395.16668,133.41772 C395.16668,133.41772 383.10308,99.165692 390.16586,90.084975 397.22864,81.004257 402.83378,79.419201 410.16818,91.751693 412.23111,95.220429 409.19536,126.69701 406.16813,132.75073" 
+              Height="51.531" Canvas.Left="344.615" Stretch="Fill" Stroke="Black" Canvas.Top="110.636" Width="23.894">
+            <Path.Fill>
+                <RadialGradientBrush>
+                    <GradientStop Color="White" Offset="0.251"/>
+                    <GradientStop Color="#FF63C8CD" Offset="0.695"/>
+                </RadialGradientBrush>
+            </Path.Fill>
+            <Path.RenderTransform>
+                <RotateTransform Angle="315"/>
+            </Path.RenderTransform>
+        </Path>
+        <Path  Data="M395.16668,133.41772 C395.16668,133.41772 383.10308,99.165692 390.16586,90.084975 397.22864,81.004257 402.83378,79.419201 410.16818,91.751693 412.23111,95.220429 409.19536,126.69701 406.16813,132.75073" 
+              Height="51.531" Canvas.Left="360.948" Stretch="Fill" Stroke="Black" Canvas.Top="202.304" Width="23.894">
+            <Path.Fill>
+                <RadialGradientBrush>
+                    <GradientStop Color="White" Offset="0.251"/>
+                    <GradientStop Color="#FF63C8CD" Offset="0.695"/>
+                </RadialGradientBrush>
+            </Path.Fill>
+            <Path.RenderTransform>
+                <RotateTransform Angle="230"/>
+            </Path.RenderTransform>
+        </Path>
+        <Path Data="M408.66667,162.33333 C408.66667,162.33333 419.49983,177.83371 427.49983,212.50038 435.49983,247.16704 429.49984,259.1671 428.1665,272.50044 426.83317,285.83377 419.49979,302.5006 425.4998,343.16717 431.49981,383.83374 447.49999,391.83392 444.83332,411.83391" 
+               Height="250.5" Canvas.Left="408.667" Stretch="Fill" Stroke="Green" Canvas.Top="162.333" Width="37.463"/>
+        <Path Data="M430,364.33333 C431.33333,361.66667 457.3019,302.35331 458.83325,300.50055 512.8331,235.16704 551.49965,237.16754 551.49965,237.16754 551.49965,237.16754 538.83302,291.16724 498.83314,323.83381 458.83325,356.50037 430,364.33333 430,364.33333 z" 
+              Height="128.173" Canvas.Left="430" Stretch="Fill" Stroke="Green" Canvas.Top="237.16" Width="122.5">
+            <Path.Fill>
+                <RadialGradientBrush>
+                    <GradientStop Color="White" Offset="0"/>
+                    <GradientStop Color="Green" Offset="1"/>
+                </RadialGradientBrush>
+            </Path.Fill>
+        </Path>
+
+
+
+
+
+    </Canvas>
+</Window>
